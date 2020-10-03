@@ -7,7 +7,7 @@ In order for the AGA8 equation to become useful for the calculation of all therm
 
 Added isentropic temperature coefficient ISENCOEFT to the original set of derived properties.
 
-ISENCOEFT=T / (T-1D3*P/(D* MOL*CP)-P*JTCOEF)
+ISENCOEFT=T / [T-1000*P/(D* MOL*CP)-P*JTCOEF]
 
 T: Temperature (K)
 P: Pressure (MPa)
