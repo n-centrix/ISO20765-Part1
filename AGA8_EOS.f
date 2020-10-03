@@ -1,8 +1,16 @@
      
-!ISO 20765 Part 2 - Coded by R.Djigouadi
+!ISO 20765 Part 1 - Coded by R.Djigouadi
 !www.n-centrix.com
 !Release Version Oct-2020  
- 
+!Reference:
+!BS EN ISO 20765-1:2005
+!Natural gas — Calculation of thermodynamic properties Part 1: Gas phase properties for transmission and distribution applications
+!
+!BS EN ISO 12213-2:2009
+!Natural gas — Calculation of compression factor Part 2: Calculation using molarcomposition analysis (ISO 12213-2:2006)
+!
+!Added: 
+!Calculation of isentropic temperature exponent as a derivated properties. 
  
         include 'AGA8_TABLE(EOS).f' 
 
